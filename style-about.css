@@ -1,0 +1,135 @@
+body{
+    background: gainsboro;
+}
+header {
+    background: black;
+    height: 50px;
+    position: relative;
+}
+header ul{
+    padding: 14px;
+    text-align: center;
+    word-spacing: 50px;
+    font-weight: bolder;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 14px 10px;
+}
+header li a{
+    background: black;
+    color: #d4d4d4;
+}
+header li a:hover{
+    background: #009736;
+    color: #fff;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    border-bottom: #000000;
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 1200px;
+}
+.content .textBox li{
+    list-style: none;
+}
+.content .textBox li ul{
+    font-size: 30;
+}
+.content .textBox li p{
+    font-size: 20;
+    margin-left: 60;
+    text-align: justify;
+}
+.content .textBox h1
+{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+table{
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+table th{
+    font-size: 16px;
+}
+.footer-text{
+    background: gray;
+    color: white;
+    display: flex;
+    height: auto;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-text h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer-text p{
+    max-width: 500px;
+    margin: 15px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.sosmed{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.sosmed li{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.sosmed a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bot{
+    margin-top: -20px;
+    width: 100vw;
+    color: white;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 2px;
+}
+
+.footer-bot p{
+    margin-left:700px ;
+}
