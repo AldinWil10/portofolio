@@ -1,0 +1,150 @@
+body{
+    background: gainsboro;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background: black;
+    height: 50px;
+    position: relative;
+}
+header ul{
+    padding: 14px;
+    text-align: center;
+    word-spacing: 50px;
+    font-weight: bolder;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 14px 10px;
+}
+header li a{
+    background: black;
+    color: #d4d4d4;
+}
+header li a:hover{
+    background: #009736;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(8,1fr);
+  }
+
+.card {
+    display: grid;
+    grid-template-columns: 420px;
+    margin: 20px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    background: white;
+}
+
+.head-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.body-card {
+    padding: 10px 15px;
+}  
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+}
+
+.button input[type="button"]{
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.footer-text{
+    background: gray;
+    color: white;
+    display: flex;
+    height: auto;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-text h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer-text p{
+    max-width: 500px;
+    margin: 15px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.sosmed{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.sosmed li{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.sosmed a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bot{
+    margin-top: -20px;
+    width: 100vw;
+    color: white;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 2px;
+}
+
+.footer-bot p{
+    margin-left:700px ;
+}
+    
